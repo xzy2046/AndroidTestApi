@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 zhengyang.xu xuzhengyang.cn@gmail.com
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:dither="true"
+       android:shape="oval">
+
+    <!--gradientRadius 很难理解，**%的形式在三星note机型上表现非常差！
+        使用float值在5.0上的表现非常差！ -->
+    <!-- %意识是相对于自己的尺寸，%p是相对于自己Parent的-->
+    <gradient
+            android:endColor="#66ff0000"
+            android:gradientRadius="75%"
+            android:centerColor="#ffffcc00"
+            android:startColor="#ffffcc00"
+            android:type="radial"
+            android:useLevel="false"/>
+
+    <size
+            android:height="100dp"
+            android:width="100dp"/>
+
+</shape>

@@ -38,12 +38,22 @@
                 android:targetPackage="xzy.demo.androidtestapi"/>
     </header>
 
+    <header
+            android:icon="@drawable/ic_launcher"
+            android:title="transitions"
+            android:summary="Transition Animation测试">
 
-<!--    <header android:icon="@drawable/ic_launcher"
-            android:title="Intent"
-            android:summary="Launches an Intent.">
-        <intent android:action="android.intent.action.VIEW"
-                android:data="http://www.android.com"/>
-    </header>-->
+        <intent
+                android:targetClass="xzy.demo.androidtestapi.transition.TestTransition"
+                android:targetPackage="xzy.demo.androidtestapi"/>
+
+    </header>
+
+    <!--    <header android:icon="@drawable/ic_launcher"
+                android:title="Intent"
+                android:summary="Launches an Intent.">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://www.android.com"/>
+        </header>-->
 
 </preference-headers>

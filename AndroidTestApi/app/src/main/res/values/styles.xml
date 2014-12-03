@@ -21,4 +21,18 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="BaseAppTheme" parent="android:Theme.Material">
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@android:transition/slide_left</item>
+        <item name="android:windowExitTransition">@android:transition/slide_right</item>
+
+        <!-- specify shared element transitions -->
+<!--        <item name="android:windowSharedElementEnterTransition">
+            @android:transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @android:transition/change_image_transform</item>-->
+    </style>
 </resources>

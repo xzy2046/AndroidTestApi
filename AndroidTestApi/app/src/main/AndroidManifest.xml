@@ -13,8 +13,7 @@
   ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~  See the License for the specific language governing permissions and
   ~  limitations under the License.
-  -->
-
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="xzy.demo.androidtestapi" >
 
@@ -43,6 +42,11 @@
         <activity
             android:name="xzy.demo.androidtestapi.recyclerview.RecyclerViewDemoActivity"
             android:label="@string/title_activity_recycler_view_demo" >
+        </activity>
+        <activity
+            android:name="xzy.demo.androidtestapi.transition.TestTransition"
+            android:theme="@style/BaseAppTheme"
+            android:label="@string/title_activity_test_transition" >
         </activity>
     </application>
 
